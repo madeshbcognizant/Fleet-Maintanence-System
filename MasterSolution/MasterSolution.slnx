@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="MasterService/MasterService.csproj" />
+  <Project Path="OdometerService/OdometerService.csproj" />
+  <Project Path="ScheduleAssignmentService/ScheduleAssignmentService.csproj" />
+  <Project Path="ScheduleService/ScheduleService.csproj" />
+  <Project Path="ServiceHistoryService/ServiceHistoryService.csproj" />
+  <Project Path="TechnicianService/TechnicianService.csproj" />
+  <Project Path="UserService/UserService.csproj" />
+  <Project Path="VehicleService/VehicleService.csproj" />
+</Solution>
