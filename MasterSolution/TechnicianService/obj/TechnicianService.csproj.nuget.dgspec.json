@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj": {}
+    "C:\\Users\\2492233\\OneDrive - Cognizant\\Desktop\\Project\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj": {
+    "C:\\Users\\2492233\\OneDrive - Cognizant\\Desktop\\Project\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj",
+        "projectUniqueName": "C:\\Users\\2492233\\OneDrive - Cognizant\\Desktop\\Project\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj",
         "projectName": "TechnicianService",
-        "projectPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj",
-        "packagesPath": "C:\\Users\\2492378\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\obj\\",
+        "projectPath": "C:\\Users\\2492233\\OneDrive - Cognizant\\Desktop\\Project\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\TechnicianService.csproj",
+        "packagesPath": "C:\\Users\\2492233\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2492233\\OneDrive - Cognizant\\Desktop\\Project\\Fleet-Maintanence-System\\MasterSolution\\TechnicianService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2492378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2492233\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,9 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\LocalNuGet": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\2492378\\RealEstateL": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
