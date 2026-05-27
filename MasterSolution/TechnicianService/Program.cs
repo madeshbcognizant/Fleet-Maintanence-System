@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using TechnicianService.Repository;
 
 namespace TechnicianService
 {
@@ -7,6 +9,10 @@ namespace TechnicianService
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<models.TechnicianContext>(options 
+                => options.UseSqlServer(builder.Configuration.GetConnectionString("TechnicianDB")));
+
+            builder.Services.AddScoped<TechnicianRepository>();
             // Add services to the container.
 
             builder.Services.AddControllers();
