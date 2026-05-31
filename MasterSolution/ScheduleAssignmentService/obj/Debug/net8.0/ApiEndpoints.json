@@ -1,0 +1,132 @@
+[
+  {
+    "ContainingType": "Schedule_AssignmentController",
+    "Method": "GetSchedule_Assignment",
+    "RelativePath": "api/Schedule_Assignment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScheduleAssignmentService.Models.Schedule_Assignment, ScheduleAssignmentService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Schedule_AssignmentController",
+    "Method": "PostSchedule_Assignment",
+    "RelativePath": "api/Schedule_Assignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "schedule_assignment",
+        "Type": "ScheduleAssignmentService.Models.Schedule_Assignment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ScheduleAssignmentService.Models.Schedule_Assignment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Schedule_AssignmentController",
+    "Method": "GetSchedule_Assignment",
+    "RelativePath": "api/Schedule_Assignment/{serviceid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ScheduleAssignmentService.Models.Schedule_Assignment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Schedule_AssignmentController",
+    "Method": "PutSchedule_Assignment",
+    "RelativePath": "api/Schedule_Assignment/{serviceid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "schedule_assignment",
+        "Type": "ScheduleAssignmentService.Models.Schedule_Assignment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Schedule_AssignmentController",
+    "Method": "DeleteSchedule_Assignment",
+    "RelativePath": "api/Schedule_Assignment/{serviceid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScheduleAssignmentService.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScheduleAssignmentService.WeatherForecast, ScheduleAssignmentService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

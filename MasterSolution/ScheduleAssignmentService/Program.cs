@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace ScheduleAssignmentService
 {
     public class Program
@@ -8,6 +10,9 @@ namespace ScheduleAssignmentService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<Models.Schedule_Assignment_Context>((options) =>
+               options.UseSqlServer(builder.Configuration.GetConnectionString("FMS"))
+            );
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
