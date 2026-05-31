@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OdometerService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8c88bc0211fb48ba6e94b40ab626d4a82dfa0e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OdometerService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OdometerService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
