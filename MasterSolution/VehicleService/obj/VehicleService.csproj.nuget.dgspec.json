@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj": {}
+    "C:\\Users\\2492380\\OneDrive - Cognizant\\Desktop\\Fleet Maintainance\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj": {
+    "C:\\Users\\2492380\\OneDrive - Cognizant\\Desktop\\Fleet Maintainance\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj",
+        "projectUniqueName": "C:\\Users\\2492380\\OneDrive - Cognizant\\Desktop\\Fleet Maintainance\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj",
         "projectName": "VehicleService",
-        "projectPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj",
-        "packagesPath": "C:\\Users\\2492378\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\obj\\",
+        "projectPath": "C:\\Users\\2492380\\OneDrive - Cognizant\\Desktop\\Fleet Maintainance\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\VehicleService.csproj",
+        "packagesPath": "C:\\Users\\2492380\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2492380\\OneDrive - Cognizant\\Desktop\\Fleet Maintainance\\Fleet-Maintanence-System\\MasterSolution\\VehicleService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2492378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2492380\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\2492378\\RealEstateL": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\nuget_folder": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +54,30 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
