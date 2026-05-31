@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using ServiceHistoryService.Models;
+
 namespace ServiceHistoryService
 {
     public class Program
@@ -8,6 +11,8 @@ namespace ServiceHistoryService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<ServiceHistoryContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ServiceHistoryDb")));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

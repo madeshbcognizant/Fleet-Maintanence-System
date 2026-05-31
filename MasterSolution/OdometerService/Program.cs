@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using OdometerService.Models;
+
 namespace OdometerService
 {
     public class Program
@@ -8,6 +11,9 @@ namespace OdometerService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<OdometerContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("OdometerDb")));
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

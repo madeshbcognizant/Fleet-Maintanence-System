@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj": {}
+    "C:\\Users\\2492254\\OneDrive - Cognizant\\Documents\\gitProject\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj": {
+    "C:\\Users\\2492254\\OneDrive - Cognizant\\Documents\\gitProject\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj",
+        "projectUniqueName": "C:\\Users\\2492254\\OneDrive - Cognizant\\Documents\\gitProject\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj",
         "projectName": "OdometerService",
-        "projectPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj",
-        "packagesPath": "C:\\Users\\2492378\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2492378\\source\\repos\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\obj\\",
+        "projectPath": "C:\\Users\\2492254\\OneDrive - Cognizant\\Documents\\gitProject\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\OdometerService.csproj",
+        "packagesPath": "C:\\Users\\2492254\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2492254\\OneDrive - Cognizant\\Documents\\gitProject\\Fleet-Maintanence-System\\MasterSolution\\OdometerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2492378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2492254\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,9 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\LocalNugetFeed": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\2492378\\RealEstateL": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,13 +47,33 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -77,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
