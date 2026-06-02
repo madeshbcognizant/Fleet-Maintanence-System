@@ -1,4 +1,6 @@
-﻿using System.Net.Http.Json;
+﻿using System.ComponentModel;
+using System.Net.Http.Json;
+using Microsoft.AspNetCore.Http.HttpResults;
 using ScheduleService.DTOs;
 
 namespace ScheduleService.Clients
@@ -20,10 +22,11 @@ namespace ScheduleService.Clients
             return await _httpClient.GetFromJsonAsync<VehicleDTO>(url);
         }
 
-        public async Task<MasterDTO?> GetMasterDescriptionAsync(string type)
+        public   List<MasterDTO?> GetMasterDescriptionAsync(string type)
         {
             var url = $"{_config["ServiceUrls:MasterService"]}/api/master/{type}";
-            return await _httpClient.GetFromJsonAsync<MasterDTO>(url);
+           IEnumerable<MasterDTO> list=  _httpClient.GetFromJson<List<MasterDTO>>(url);
+            return list;
         }
 
         public async Task<OdometerDTO?> GetOdometerReadAsync(string regId)
